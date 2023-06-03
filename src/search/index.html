@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    ${ require('raw-loader!./meta.html')}
+    <title>Document</title>
+    <script>${ require('raw-loader!babel-loader!../../node_modules/lib-flexible/flexible.js')}</script>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- <script type="text/javascript" src="https://now8.gtimg.com/now/lib/16.8.6/react.min.js?_bid=4042"></script>
+    <script type="text/javascript" src="https://now8.gtimg.com/now/lib/16.8.6/react-dom.min.js?_bid=4042"></script> -->
+</body>
+</html>

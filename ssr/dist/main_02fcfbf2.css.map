@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/index.less"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA","file":"main_02fcfbf2.css","sourcesContent":[".search-text {\n  font-size: 20px;\n  color: #f00;\n  display: flex;\n}\n"],"sourceRoot":""}

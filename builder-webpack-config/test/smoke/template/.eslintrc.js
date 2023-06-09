@@ -1,11 +1,11 @@
 module.exports = {
     "parser": "babel-eslint",
-    // "extends": "airbnb",
+    "extends": "airbnb",
     "env": {
         "browser": true,
         "node": true
     },
-    // "rules": {
-    //     "indent": ["error", 4]
-    // }
+    "rules": {
+        "indent": ["error", 4]
+    }
 };
